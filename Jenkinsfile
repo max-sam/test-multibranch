@@ -4,9 +4,9 @@ pipeline {
    stages {
       stage('Hello') {
          steps {
-			ws('Frontend') {
-				sh 'pwd'
-			}
+			#ws('Frontend') {
+			#	sh 'pwd'
+			#}
             echo 'Hello World'
          }
       }
